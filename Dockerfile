@@ -3,6 +3,7 @@ FROM buildpack-deps:stretch
 
 ENV DEV_USER dev
 ENV DEV_PASSWORD dev
+ENV SHELL /bin/bash
 
 RUN apt-get update
 RUN apt-get install sudo -y
